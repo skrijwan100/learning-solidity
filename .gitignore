@@ -1,7 +1,7 @@
 # Ignore dependency and build artifacts
 artifacts/
 .deps/
-
+.states/
 # Ignore system files
 .DS_Store
 Thumbs.db
