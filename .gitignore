@@ -2,6 +2,7 @@
 artifacts/
 .deps/
 .states/
+.learneth 
 # Ignore system files
 .DS_Store
 Thumbs.db
