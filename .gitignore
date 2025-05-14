@@ -1,0 +1,15 @@
+# Ignore dependency and build artifacts
+artifacts/
+.deps/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE configs (optional)
+.vscode/
+.idea/
+
+# Ignore Prettier config if you want to keep it local only
+# Uncomment if you don't want to share Prettier settings
+# .prettierrc.json
