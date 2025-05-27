@@ -8,7 +8,7 @@ library imp{
 }
 
 contract test{
-    function call(uint   num1, uint  num2) public pure  returns (uint){
+    function call(uint  num1, uint  num2) public pure  returns (uint){
         return imp.add(num1,num2);
     }
 }
