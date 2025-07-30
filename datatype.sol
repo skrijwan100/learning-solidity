@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.12;
+pragma solidity ^0.8.30;
 
 contract variable{
     int public number=123;
@@ -11,9 +11,9 @@ contract variable{
 }
 
 contract helloWorld{
-    string public a="Hello World!";
-    function Show() public view returns(string memory) {
-        return a;
+
+    function Show() public pure  returns(string  memory ) {
+        return "Hello World!";
     }
 
 }
